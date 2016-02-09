@@ -1,0 +1,3 @@
+This is a PHP Class for Apache Tika
+
+More info coming soon...

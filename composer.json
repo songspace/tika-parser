@@ -1,0 +1,23 @@
+{
+  "name": "songspace/tika-parser",
+  "description": "Module for parsing file data using Apache Tika",
+  "keywords": ["tika"],
+  "authors": [
+    {
+      "name": "Aaron Rhodes",
+      "email": "aaron@songspace.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Songspace\\TikaParser\\": "src"
+    }
+  }
+}
