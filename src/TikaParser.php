@@ -33,7 +33,7 @@ class TikaParser
     {
         // Default to local jar
         if ($path === null && $type === self::METHOD_JAR) {
-            $path = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'tika-app-1.11.jar';
+            $path = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'tika-app-2.7.0.jar';
         }
 
         $this->path = $path;
